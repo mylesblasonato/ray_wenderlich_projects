@@ -43,7 +43,7 @@ namespace RayWenderlinch.MarbleMatchGame.LevelController
     public class LevelController : MonoBehaviour
     {
         [SerializeField] string sceneName = "";
-        
+
         void OnTriggerEnter(Collider other)
         {
             if (other.CompareTag("Player"))
